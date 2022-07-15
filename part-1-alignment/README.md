@@ -1,6 +1,7 @@
 # Alignment task
 __Salmon__
 - https://combine-lab.github.io/salmon/getting_started/
+
 __kallisto__
 - https://pachterlab.github.io/kallisto/starting
 ___
