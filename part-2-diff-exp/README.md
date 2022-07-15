@@ -1,6 +1,6 @@
 # DESeq2 analysis task
 - http://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html
- 
+___
 0. Use relative environment
 ```bash
 conda env create -f deseq.yml
