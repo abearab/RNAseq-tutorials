@@ -5,7 +5,11 @@ __Salmon__
 __kallisto__
 - https://pachterlab.github.io/kallisto/starting
 ___
-0. Activate relative environment
+0. Use relative environment
+```bash
+# make environment 
+conda create -n alignment salmon star kallisto 
+```
 ```bash
 conda activate alignment
 ```
