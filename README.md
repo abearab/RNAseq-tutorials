@@ -1,8 +1,6 @@
 # Setup your system
 1. Install `conda`
 2. Add relative channels
-3. Create fresh environment for your task
-
 ```bash
 # add channels 
 conda config --add channels conda-forge
@@ -10,6 +8,8 @@ conda config --add channels bioconda
 conda config --add channels r
 conda config --add channels python
 ```
+3. Create fresh environment for your task and install packages locally. 
+
 ## Exploratory data analysis
 Jupyter
 - https://anaconda.org/anaconda/jupyter
