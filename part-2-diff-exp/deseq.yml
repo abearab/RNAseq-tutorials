@@ -400,4 +400,3 @@ dependencies:
     - rpy2==3.4.5
     - tzdata==2021.5
     - tzlocal==4.1
-prefix: /data_gilbert/home/aarab/anaconda3/envs/deseq2
