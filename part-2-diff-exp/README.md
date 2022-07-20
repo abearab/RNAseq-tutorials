@@ -3,7 +3,7 @@
 ___
 0. Use relative environment
 ```bash
-conda env create -n deseq -c bioconda bioconductor-deseq2
+conda create -n deseq -c bioconda bioconductor-deseq2
 ```
 
 ```bash
