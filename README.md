@@ -11,14 +11,22 @@ conda config --add channels python
 3. Create fresh environment for your task and install packages locally. 
 
 ## Exploratory data analysis
-Jupyter
-- https://anaconda.org/anaconda/jupyter
+__How to use Jupyter with multiple conda environments?__
+Install `nb_conda_kernels` in the base environment or separate environment you used for jupyter stuff.
 ```bash
-conda activate base 
-conda install -c anaconda jupyter
-# run jupyter
-jupyter notebook
+conda install -c conda-forge nb_conda_kernels
 ```
+Using `nb_conda_kernels`, you can have one Jupyter installed in your system and launch different python or R kernels form any created conda environments even in a single notebook.
+> Note: You only need ipykernel, numpy and pandas in each environment in addition to your own packages.
+```bash
+conda install -n <env-name> -c anaconda ipykernel numpy pandas
+```
+How to use R (and python) in Jupyter?
+Instead, you can include R kernel into an envrinment with R packages. So, install irkernel.
+How to tunnel from your local machine to the server?
+I could almost always use this: ssh -NfL 1111:localhost:2222 <user>@<server>.ucsf.edu
+Replace 2222 with Jupyter port number in the server and 1111 with your desired local port number.
+
 # Tutorials 
 ## Part 1: Alignment
 __[Tutorial notes](part-1-alignment/README.md)__
